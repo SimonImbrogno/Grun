@@ -1,7 +1,7 @@
 # Grun
 This Sublime Text colour scheme was designed for less eye strain in dim light and to compliment the Afterglow Theme. 
 
-![](example.png)
+![](ThemeExample.png)
 
 If you'd like to tweak your theme to match:
 
