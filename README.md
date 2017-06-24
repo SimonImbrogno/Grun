@@ -12,5 +12,5 @@ If you'd like to tweak your theme to match:
 | Invisibles, LineHighlight, Selection | #4A4A4A |
 | Keyword, Number, Constant, Fn Decl   | #FFFFDC |
 | Storage Type, Function               | #BFE695 |
-| String                               | #CDCDDD |
+| String                               | #CDCDCD |
 | Comment                              | #8A8A8A |
