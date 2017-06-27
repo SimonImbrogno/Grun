@@ -86,7 +86,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted</string>
+			<string>string.quoted,string.template.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -97,8 +97,7 @@
 			<key>name</key>
 			<string>Function</string>
 			<key>scope</key>
-			<string>variable.function,
-support.function</string>
+			<string>variable.function,support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
