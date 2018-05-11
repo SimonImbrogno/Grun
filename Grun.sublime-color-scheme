@@ -10,15 +10,15 @@
         "mid_grey": 	"#3A3A3A",
         "light_grey": 	"#4A4A4A",
         "blue": 		"#CDCDD7",
-        "egg_shell": 	"#FFFFDC",
-        "yellow": 		"#BFE695",
+        "egg_shell": 	"#FDFDDA",
+        "yellow": 		"#C3E890",
         "orange": 		"#BF4634",
     },
     "globals":
     {
         "foreground": 					"var(grun)",
         "background": 					"var(grey)",
-        "gutter_foreground": 			"var(grun)",
+        "gutter_foreground": 			"var(dim_grey)",
         "gutter":                       "var(grey)",
 
         "caret": 						"var(grun)",
