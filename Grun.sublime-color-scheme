@@ -1,0 +1,109 @@
+{
+    "name": "Grun",
+    "author": "TurnForever",
+    "variables":
+    {
+        "grun": 		"#C7BA91",
+        "dark_grey": 	"#202020",
+        "dim_grey": 	"#8A8A8A",
+        "grey": 		"#2D2D2D",
+        "light_grey": 	"#4A4A4A",
+        "blue": 		"#CDCDD7",
+        "egg_shell": 	"#FFFFDC",
+        "yellow": 		"#BFE695",
+        "orange": 		"#BF4634",
+    },
+    "globals":
+    {
+        "foreground": 					"var(grun)",
+        "background": 					"var(grey)",
+        "gutter": 						"var(grey)",
+        "gutter_foreground": 			"var(grun)",
+
+        "caret": 						"var(grun)",
+        "guide": 						"var(light_grey)",
+        
+        "selection": 					"var(light_grey)",
+        "selection_border": 			"var(grun)",
+        "inactive_selection": 			"color(var(light_grey) a(0.08))",
+        
+        "highlight": 					"var(grun)",
+        "find_highlight":				"var(yellow)",
+        "find_highlight_foreground": 	"var(dark_grey)",
+        
+        "bracket_options":				"underline",
+        
+        "shadow": 						"var(dark_grey)",
+
+        "accent": 						"var(orange)",
+        "misspelling": 					"var(orange)",
+        "fold_marker": 					"var(yellow)",
+    },
+    "rules":
+    [
+        {
+        	"name":			"Strings",
+            "scope": 		"string.quoted - string.template.js",
+            "foreground":	"var(blue)"
+        },
+        {
+        	"name":			"Comments",
+            "scope": 		"comment",
+            "font_style": 	"italic",
+            "foreground": 	"var(dim_grey)"
+        },
+        {
+        	"name":			"Constants",
+            "scope": 		"constant",
+            "foreground": 	"var(egg_shell)"
+        },
+        {
+        	"name":			"Tags",
+            "scope": 		"entity.name.tag - entity.name.attribute-name",
+            "foreground": 	"var(yellow)"
+        },
+        {
+        	"name":			"Keywords, Language Variables",
+            "scope": 		"keyword - variable.language",
+            "foreground": 	"var(egg_shell)"
+        },
+        {
+        	"name":			"Functions, Types",
+            "scope": 		"variable.function - support.function - storage.type",
+            "foreground": 	"var(yellow)"
+        },
+        {
+        	"name": 		"Function Definitions",
+        	"scope": 		"entity.name.function",
+        	"foreground": 	"var(egg_shell)"
+        },
+        {
+        	"name":			"Invalid",
+            "scope": 		"invalid",
+            "foreground": 	"var(orange)"
+        },
+
+        // Markdown
+        {
+            "scope": 		"markup.heading.1 entity.name.section",
+            "foreground": 	"var(egg_shell)",
+            "font_style": 	"bold"
+        },
+        {
+            "scope": 		"markup.heading.2 entity.name.section",
+            "foreground": 	"var(egg_shell)"
+        },
+        {
+            "scope": 		"entity.name.section",
+            "foreground": 	"var(egg_shell)"
+        },
+        {
+            "scope": 		"markup.italic",
+            "font_style": 	"italic"
+        },
+        {
+            "scope": 		"markup.bold",
+            "font_style": 	"bold"
+        }
+    ]
+}
