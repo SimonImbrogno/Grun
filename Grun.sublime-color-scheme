@@ -6,7 +6,8 @@
         "grun": 		"#C7BA91",
         "dark_grey": 	"#202020",
         "dim_grey": 	"#8A8A8A",
-        "grey": 		"#2D2D2D",
+        "grey":         "#2D2D2D",
+        "mid_grey": 	"#3A3A3A",
         "light_grey": 	"#4A4A4A",
         "blue": 		"#CDCDD7",
         "egg_shell": 	"#FFFFDC",
@@ -17,17 +18,18 @@
     {
         "foreground": 					"var(grun)",
         "background": 					"var(grey)",
-        "gutter": 						"var(grey)",
         "gutter_foreground": 			"var(grun)",
+        "gutter":                       "var(grey)",
 
         "caret": 						"var(grun)",
         "guide": 						"var(light_grey)",
         
         "selection": 					"var(light_grey)",
-        "selection_border": 			"var(grun)",
-        "inactive_selection": 			"color(var(light_grey) a(0.08))",
+        "selection_border":             "var(dark_grey)",
+        "inactive_selection": 			"color(var(mid_grey))",
         
         "highlight": 					"var(grun)",
+        "line_highlight":               "var(mid_grey)",
         "find_highlight":				"var(yellow)",
         "find_highlight_foreground": 	"var(dark_grey)",
         
@@ -66,6 +68,11 @@
         	"name":			"Keywords, Language Variables",
             "scope": 		"keyword - variable.language",
             "foreground": 	"var(egg_shell)"
+        },
+        {
+            "name":         "Operators",
+            "scope":        "keyword.operator",
+            "foreground":   "var(grun)"
         },
         {
         	"name":			"Functions, Types",
