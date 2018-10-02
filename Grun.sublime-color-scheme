@@ -50,7 +50,7 @@
     [
         {
             "name":         "Strings",
-            "scope":        "string.quoted - string.template.js",
+            "scope":        "string.quoted, string.template.js",
             "foreground":   "var(blue)"
         },
         {
