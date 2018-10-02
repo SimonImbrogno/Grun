@@ -3,71 +3,76 @@
     "author": "TurnForever",
     "variables":
     {
-        "grun": 		"#C7BA91",
-        "dark_grey": 	"#202020",
+        "grun":         "#C7BA91",
+        "pastel_grun":  "#D4CCB4",
+
+        "dark_grey2":   "#202020",
+        "dark_grey1":   "#232323",
         "grey":         "#2D2D2D",
-        "mid_grey":     "#3A3A3A",
-        "light_grey":   "#4A4A4A",
-        "comment_grey": "#8A8A8A",
-        "blue": 		"#CDCDD7",
-        "egg_shell": 	"#FDFDDA",
-        "yellow": 		"#C3E890",
-        "orange": 		"#BF4634",
+        "light_grey1":  "#3A3A3A",
+        "light_grey2":  "#4A4A4A",
+        "light_grey3":  "#8A8A8A",
+        "light_grey4":  "#DFDFCF",
+
+        "blue":         "#CDCDD7",
+        "egg_shell":    "#FDFDDA",
+        "yellow":       "#C3E890",
+        "orange":       "#BF4634",
     },
     "globals":
     {
-        "foreground": 					"var(grun)",
-        "background": 					"var(grey)",
-        "gutter_foreground": 			"var(light_grey)",
+        "foreground":                   "var(grun)",
+        "background":                   "var(grey)",
+        "gutter_foreground":            "var(grun)",
         "gutter":                       "var(grey)",
 
-        "caret": 						"var(grun)",
-        "guide": 						"var(light_grey)",
-        
-        "selection": 					"var(light_grey)",
-        "selection_border":             "var(dark_grey)",
-        "inactive_selection": 			"color(var(mid_grey))",
-        
-        "highlight": 					"var(grun)",
-        "line_highlight":               "var(mid_grey)",
-        "find_highlight":				"var(yellow)",
-        "find_highlight_foreground": 	"var(dark_grey)",
-        
-        "bracket_options":				"underline",
-        
-        "shadow": 						"var(dark_grey)",
+        "caret":                        "var(grun)",
+        "guide":                        "var(light_grey2)",
 
-        "accent": 						"var(orange)",
-        "misspelling": 					"var(orange)",
-        "fold_marker": 					"var(yellow)",
+        "selection":                    "var(light_grey2)",
+        "selection_border":             "var(dark_grey2)",
+        "inactive_selection":           "color(var(light_grey1))",
+
+        "highlight":                    "var(grun)",
+        "line_highlight":               "var(light_grey1)",
+        "find_highlight":               "var(yellow)",
+        "find_highlight_foreground":    "var(dark_grey2)",
+
+        "bracket_options":              "underline",
+
+        "shadow":                       "var(dark_grey2)",
+
+        "accent":                       "var(orange)",
+        "misspelling":                  "var(orange)",
+        "fold_marker":                  "var(yellow)",
     },
     "rules":
     [
         {
-        	"name":			"Strings",
-            "scope": 		"string.quoted, string.template.js",
-            "foreground":	"var(blue)"
+            "name":         "Strings",
+            "scope":        "string.quoted - string.template.js",
+            "foreground":   "var(blue)"
         },
         {
-        	"name":			"Comments",
-            "scope": 		"comment",
-            "font_style": 	"italic",
-            "foreground": 	"var(comment_grey)"
+            "name":         "Comments",
+            "scope":        "comment",
+            "font_style":   "italic",
+            "foreground":   "var(light_grey3)"
         },
         {
-        	"name":			"Constants",
-            "scope": 		"constant",
-            "foreground": 	"var(egg_shell)"
+            "name":         "Constants",
+            "scope":        "constant",
+            "foreground":   "var(egg_shell)"
         },
         {
-        	"name":			"Entities",
-            "scope": 		"entity.name",
-            "foreground": 	"var(yellow)"
+            "name":         "Entities",
+            "scope":        "entity.name",
+            "foreground":   "var(yellow)"
         },
         {
-        	"name":			"Keywords, Language Variables",
-            "scope": 		"keyword, variable.language",
-            "foreground": 	"var(egg_shell)"
+            "name":         "Keywords, Language Variables",
+            "scope":        "keyword, variable.language",
+            "foreground":   "var(egg_shell)"
         },
         {
             "name":         "Operators",
@@ -75,33 +80,96 @@
             "foreground":   "var(grun)"
         },
         {
-        	"name":			"Functions, Types",
-            "scope": 		"variable.function, support.function, storage.type",
-            "foreground": 	"var(yellow)"
+            "name":         "Functions, Types",
+            "scope":        "variable.function, support.function, storage.type",
+            "foreground":   "var(yellow)"
         },
         {
-        	"name": 		"Function Definitions",
-        	"scope": 		"entity.name.function",
-        	"foreground": 	"var(egg_shell)"
+            "name":         "Function Definitions",
+            "scope":        "entity.name.function",
+            "foreground":   "var(egg_shell)"
         },
         {
-        	"name":			"Invalid",
-            "scope": 		"invalid",
-            "foreground": 	"var(orange)"
+            "name":         "Invalid",
+            "scope":        "invalid",
+            "foreground":   "var(orange)"
         },
 
-        // Markdown
+        //////////////\
+        // Markdown //\\
+        //////////////\\\
         {
-            "scope": 		"entity.name.section",
-            "foreground": 	"var(egg_shell)"
+            "scope":        "punctuation.definition.heading.setext",
+            "foreground":   "var(egg_shell)"
         },
         {
-            "scope": 		"markup.italic",
-            "font_style": 	"italic"
+            "scope":        "entity.name.section",
+            "foreground":   "var(egg_shell)"
         },
         {
-            "scope": 		"markup.bold",
-            "font_style": 	"bold"
-        }
+            "scope":        "markup.italic",
+            "font_style":   "italic",
+            "foreground":   "var(egg_shell)"
+        },
+        {
+            "scope":        "markup.bold",
+            "font_style":   "bold",
+            "foreground":   "var(egg_shell)"
+        },
+        {
+            "scope":        "markup.italic & markup.bold",
+            "foreground":   "var(yellow)",
+            "font_style":   "italic bold"
+        },
+        {
+            "scope":        "markup.list.numbered.bullet.markdown | punctuation.definition.list_item.markdown",
+            "foreground":   "var(egg_shell)"
+        },
+        {
+            "scope":        "markup.underline.link",
+            "foreground":   "var(egg_shell)"
+        },
+        {
+            "scope":        "meta.link.inline.description | meta.link.reference.description",
+            "foreground":   "var(blue)"
+        },
+
+        //MD: Codeblock
+        {
+            "scope":        "constant.other.language-name",
+            "foreground":   "var(yellow)"
+        },
+        {
+            "scope":        "markup.raw",
+            "foreground":   "var(light_grey4)",
+            "background":   "var(light_grey1)"
+        },
+
+        //MD: Tables
+        {
+            "scope":        "meta.table.header",
+            "foreground":   "var(egg_shell)",
+        },
+        {
+            "scope":        "punctuation.section.table-header | punctuation.separator.table-cell | punctuation.definition.table-cell-alignment",
+            "foreground":   "var(light_grey3)",
+            "font_style":   "bold"
+        },
+
+        //MD: Quotes
+        {
+            "scope":        "markup.quote.markdown",
+            "foreground":   "var(blue)",
+            "font_style":   "italic"
+        },
+        {
+            "scope":        "punctuation.definition.blockquote",
+            "foreground":   "var(grun)",
+            "font_style":   "none"
+        },
+        {
+            "scope":        "punctuation.definition.thematic-break",
+            "foreground":   "var(egg_shell)"
+        },
     ]
 }
