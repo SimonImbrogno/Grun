@@ -23,7 +23,7 @@
     {
         "foreground":                   "var(grun)",
         "background":                   "var(grey)",
-        "gutter_foreground":            "var(grun)",
+        "gutter_foreground":            "var(light_grey2)",
         "gutter":                       "var(grey)",
 
         "caret":                        "var(grun)",
