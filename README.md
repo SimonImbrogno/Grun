@@ -12,5 +12,3 @@ This Sublime Text colour scheme was designed for less eye strain in dim light an
 
 ## Go
 ![](Example_GO.png)
-
-hello `dave` whats up?
