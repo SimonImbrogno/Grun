@@ -63,7 +63,7 @@
         {
             "name":         "Entities",
             "scope":        "entity.name",
-            "foreground":   "var(yellow)"
+            "foreground":   "var(grun)"
         },
         {
             "name":         "Constants",
@@ -84,6 +84,11 @@
             "name":         "Functions, Types",
             "scope":        "variable.function, support.function, support.type, storage",
             "foreground":   "var(yellow)"
+        },
+        {
+            "name":         "Support Object",
+            "scope":        "support.type.object",
+            "foreground":   "var(grun)"
         },
         {
             "name":         "Function Definitions",
@@ -145,8 +150,7 @@
         },
         {
             "scope":        "markup.raw",
-            "foreground":   "var(light_grey4)",
-            "background":   "var(light_grey1)"
+            "foreground":   "var(light_grey4)"
         },
 
         //MD: Tables
