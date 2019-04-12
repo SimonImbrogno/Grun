@@ -82,7 +82,7 @@
         },
         {
             "name":         "Functions, Types",
-            "scope":        "variable.function, support.function, storage.type",
+            "scope":        "variable.function, support.function, support.type, storage",
             "foreground":   "var(yellow)"
         },
         {
