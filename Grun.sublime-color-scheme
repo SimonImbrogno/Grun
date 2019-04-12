@@ -3,7 +3,7 @@
     "author": "TurnForever",
     "variables":
     {
-        "grun":             "#C7BA91",
+        "grun":             "#C0B389",
         "pastel_grun":      "#D4CCB4",
 
         "dark_grey2":       "#202020",
@@ -16,7 +16,7 @@
 
         "blue":             "#CDCDD7",
         "egg_shell":        "#FDFDDA",
-        "yellow":           "#C3E890",
+        "yellow":           "#D0E890",
         "orange":           "#BF4634",
         "bright_orange":    "#DAA850",
     },
