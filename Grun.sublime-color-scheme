@@ -61,14 +61,14 @@
             "foreground":   "var(light_grey3)"
         },
         {
-            "name":         "Constants",
-            "scope":        "constant",
-            "foreground":   "var(egg_shell)"
-        },
-        {
             "name":         "Entities",
             "scope":        "entity.name",
             "foreground":   "var(yellow)"
+        },
+        {
+            "name":         "Constants",
+            "scope":        "constant, entity.name.constant",
+            "foreground":   "var(egg_shell)"
         },
         {
             "name":         "Keywords, Language Variables",
