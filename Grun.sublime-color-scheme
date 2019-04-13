@@ -66,6 +66,11 @@
             "foreground":   "var(grun)"
         },
         {
+            "name":         "Entities",
+            "scope":        "entity.name.tag",
+            "foreground":   "var(yellow)"
+        },
+        {
             "name":         "Constants",
             "scope":        "constant, entity.name.constant",
             "foreground":   "var(egg_shell)"
