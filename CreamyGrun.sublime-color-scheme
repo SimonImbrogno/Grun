@@ -1,0 +1,193 @@
+{
+    "name": "CreamyGrun",
+    "author": "TurnForever",
+    "variables":
+    {
+        "cream":         "#F8F5EC",
+        "old_cream":     "#EEE8D5",
+        "dusty_cream":   "#A3B1B1",
+        "dirty_cream":   "#38AFA5",
+
+        "dusty_grun":    "#424242",
+        "dusty_tan":     "#999078",
+        "grungy_tan":    "#C6911F",
+
+        "egg_yolk":      "#D0E890",
+
+        "green":         "#28A000",
+        "blue":          "#0082E0",
+        "orange":        "#BF4634"
+    },
+    "globals":
+    {
+        "foreground":                "var(dusty_grun)",
+        "background":                "var(cream)",
+        "gutter_foreground":         "var(dusty_grun)",
+        "gutter":                    "var(cream)",
+
+        "caret":                     "var(dusty_grun)",
+        "guide":                     "var(dusty_grun)",
+
+        "selection":                 "var(old_cream)",
+        "selection_border":          "var(dusty_cream)",
+        "inactive_selection":        "var(light_grey1)",
+
+        "highlight":                 "var(dusty_grun)",
+        "line_highlight":            "var(old_cream)",
+        "find_highlight":            "var(egg_yolk)",
+        "find_highlight_foreground": "var(dusty_grun)",
+
+        "bracket_options":           "underline",
+
+        "shadow":                    "var(dusty_grun)",
+
+        "accent":                    "var(orange)",
+        "misspelling":               "var(orange)",
+        "fold_marker":               "var(egg_yolk)",
+    },
+    "rules":
+    [
+        {
+            "name":         "Strings",
+            "scope":        "string.quoted, string.template.js",
+            "foreground":   "var(blue)"
+        },
+        {
+            "name":         "Comments",
+            "scope":        "comment",
+            "font_style":   "italic",
+            "foreground":   "var(dirty_cream)"
+        },
+        {
+            "name":         "Entities",
+            "scope":        "entity.name",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "name":         "Entities",
+            "scope":        "entity.name.tag",
+            "foreground":   "var(blue)"
+        },
+        {
+            "name":         "Constants",
+            "scope":        "constant, entity.name.constant",
+            "foreground":   "var(green)"
+        },
+        {
+            "name":         "Storage",
+            "scope":        "storage, variable.language",
+            "font_style":   "bold",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "name":         "Keywords",
+            "scope":        "keyword",
+            "foreground":   "var(dusty_tan)"
+        },
+        {
+            "name":         "Operators",
+            "scope":        "keyword.operator",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "name":         "Functions, Types",
+            "scope":        "variable.function, support.function, support.type",
+            "foreground":   "var(grungy_tan)"
+        },
+        {
+            "name":         "Support Object",
+            "scope":        "support.type.object",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "name":         "Function Definitions",
+            "scope":        "entity.name.function",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "name":         "Invalid",
+            "scope":        "invalid",
+            "foreground":   "var(orange)"
+        },
+        {
+            "name":         "Macro",
+            "scope":        "support.macro",
+            "foreground":   "var(grungy_tan)"
+        },
+
+        //////////////\
+        // Markdown //\\
+        //////////////\\\
+        {
+            "scope":        "punctuation.definition.heading.setext",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "entity.name.section",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.italic",
+            "font_style":   "italic",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.bold",
+            "font_style":   "bold",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.italic & markup.bold",
+            "font_style":   "italic bold",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.list.numbered.bullet.markdown | punctuation.definition.list_item.markdown",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.underline.link",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "meta.link.inline.description | meta.link.reference.description",
+            "foreground":   "var(blue)"
+        },
+        {
+            "scope":        "constant.other.language-name",
+            "font_style":   "italic bold",
+            "foreground":   "var(dusty_grun)"
+        },
+        {
+            "scope":        "markup.raw",
+            "foreground":   "var(light_grey4)"
+        },
+
+        //MD: Tables
+        {
+            "scope":        "meta.table.header",
+            "foreground":   "var(dusty_grun)",
+        },
+        {
+            "scope":        "punctuation.section.table-header | punctuation.separator.table-cell | punctuation.definition.table-cell-alignment",
+            "foreground":   "var(dirty_cream)",
+            "font_style":   "bold"
+        },
+
+        //MD: Quotes
+        {
+            "scope":        "markup.quote.markdown",
+            "foreground":   "var(blue)",
+            "font_style":   "italic"
+        },
+        {
+            "scope":        "punctuation.definition.blockquote",
+            "foreground":   "var(dusty_grun)",
+            "font_style":   "none"
+        },
+        {
+            "scope":        "punctuation.definition.thematic-break",
+            "foreground":   "var(dusty_grun)"
+        },
+    ]
+}
