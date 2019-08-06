@@ -14,7 +14,6 @@
 
         "egg_yolk":      "#D0E890",
 
-        "green":         "#28A000",
         "blue":          "#0082E0",
         "orange":        "#BF4634"
     },
@@ -71,7 +70,7 @@
         {
             "name":         "Constants",
             "scope":        "constant, entity.name.constant",
-            "foreground":   "var(green)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Storage",
