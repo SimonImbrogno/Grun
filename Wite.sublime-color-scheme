@@ -1,5 +1,5 @@
 {
-    "name": "CreamyGrun",
+    "name": "Wite",
     "author": "TurnForever",
     "variables":
     {
@@ -49,7 +49,7 @@
         {
             "name":         "Strings",
             "scope":        "string.quoted, string.template.js",
-            "foreground":   "var(blue)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Comments",
@@ -65,12 +65,12 @@
         {
             "name":         "Entities",
             "scope":        "entity.name.tag",
-            "foreground":   "var(blue)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Constants",
             "scope":        "constant, entity.name.constant",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Storage",
@@ -81,7 +81,7 @@
         {
             "name":         "Keywords",
             "scope":        "keyword",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Operators",
@@ -91,7 +91,7 @@
         {
             "name":         "Functions, Types",
             "scope":        "variable.function, support.function, support.type",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(blue)"
         },
         {
             "name":         "Support Object",
@@ -111,7 +111,7 @@
         {
             "name":         "Macro",
             "scope":        "support.macro",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(blue)"
         },
 
         //////////////\
@@ -190,3 +190,4 @@
         },
     ]
 }
+
