@@ -10,7 +10,7 @@
 
         "dusty_grun":    "#424242",
         "dusty_tan":     "#999078",
-        "grungy_tan":    "#C6911F",
+        "grungy_tan":    "#b0811c",
 
         "egg_yolk":      "#D0E890",
 
@@ -49,7 +49,7 @@
         {
             "name":         "Strings",
             "scope":        "string.quoted, string.template.js",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Comments",
@@ -65,12 +65,12 @@
         {
             "name":         "Entities",
             "scope":        "entity.name.tag",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Constants",
             "scope":        "constant, entity.name.constant",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Storage",
@@ -81,7 +81,7 @@
         {
             "name":         "Keywords",
             "scope":        "keyword",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Operators",
