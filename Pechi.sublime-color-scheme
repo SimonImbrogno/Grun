@@ -6,15 +6,16 @@
         "cream":         "#F8F5EC",
         "old_cream":     "#EEE8D5",
         "dusty_cream":   "#c0b396",
-        "dirty_cream":   "#bcaf8f",
+        "dirty_cream":   "#afaa9d",
 
         "dusty_grun":    "#424242",
-        "dusty_tan":     "#929187",
-        "grungy_tan":    "#c39022",
+        "dusty_tan":     "#a39f75",
+        "grungy_tan":    "#bf8d22",
 
         "egg_yolk":      "#D0E890",
 
-        "blue":          "#0082E0",
+        "blue":          "#0086e6",
+        "faded_blue":    "#1265a1",
         "orange":        "#BF4634"
     },
     "globals":
@@ -101,7 +102,7 @@
         {
             "name":         "Function Definitions",
             "scope":        "entity.name.function",
-            "foreground":   "var(dusty_grun)"
+            "foreground":   "var(faded_blue)"
         },
         {
             "name":         "Invalid",
