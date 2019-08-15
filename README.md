@@ -1,6 +1,6 @@
 # Grun Color Schemes
-Grun was designed for less eye strain in dim light.
-Pechi was designed for less eye strain in bright light.
+  - **Grun** was designed for less eye strain in dim light.
+  - **Pechi** was designed for less eye strain in bright light.
 
 Language                   |  Grun                     |  Pechi
 :-------------------------:|:-------------------------:|:-------------------------:
