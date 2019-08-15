@@ -2,6 +2,7 @@
   - **Grun** was designed for less eye strain in dim light.
   - **Pechi** was designed for less eye strain in bright light.
 
+# Samples
 Language                   | Preview
 :-------------------------:|:--------------------------------------------------:
 **C++**                    | **Grun** ![](Example_CPP.png)  **Pechi** ![](Example_CPP.png)
