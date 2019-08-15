@@ -1,16 +1,16 @@
 {
-    "name": "Wite",
+    "name": "Pechi",
     "author": "TurnForever",
     "variables":
     {
         "cream":         "#F8F5EC",
         "old_cream":     "#EEE8D5",
-        "dusty_cream":   "#A3B1B1",
-        "dirty_cream":   "#38AFA5",
+        "dusty_cream":   "#c0b396",
+        "dirty_cream":   "#bcaf8f",
 
         "dusty_grun":    "#424242",
-        "dusty_tan":     "#999078",
-        "grungy_tan":    "#b0811c",
+        "dusty_tan":     "#929187",
+        "grungy_tan":    "#c39022",
 
         "egg_yolk":      "#D0E890",
 
@@ -49,7 +49,7 @@
         {
             "name":         "Strings",
             "scope":        "string.quoted, string.template.js",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Comments",
@@ -65,12 +65,12 @@
         {
             "name":         "Entities",
             "scope":        "entity.name.tag",
-            "foreground":   "var(grungy_tan)"
+            "foreground":   "var(dusty_tan)"
         },
         {
             "name":         "Constants",
             "scope":        "constant, entity.name.constant",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Storage",
@@ -81,7 +81,7 @@
         {
             "name":         "Keywords",
             "scope":        "keyword",
-            "foreground":   "var(dusty_tan)"
+            "foreground":   "var(grungy_tan)"
         },
         {
             "name":         "Operators",
@@ -190,4 +190,3 @@
         },
     ]
 }
-
