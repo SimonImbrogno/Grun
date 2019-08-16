@@ -3,9 +3,27 @@
   - **Pechi** was designed for less eye strain in bright light.
 
 # Samples
-Language                   | Preview
-:-------------------------:|:--------------------------------------------------:
-**C++**                    | **Grun** ![](Grun_CPP.png)  **Pechi** ![](Pechi_CPP.png)
-**JavaScript**             | **Grun** ![](Grun_JS.png)   **Pechi** ![](Pechi_JS.png)
-**Rust**                   | **Grun** ![](Grun_RUST.png) **Pechi** ![](Pechi_RUST.png)
-**Go**                     | **Grun** ![](Grun_GO.png)   **Pechi** ![](Pechi_GO.png)
+# Samples
+## Grun C++
+![](Grun_CPP.png)
+
+## Pechi C++
+![](Pechi_CPP.png)
+
+## Grun JavaScript
+![](Grun_JS.png)
+
+## Pechi JavaScript
+![](Pechi_JS.png)
+
+## Grun Rust
+![](Grun_RUST.png)
+
+## Pechi Rust
+![](Pechi_RUST.png)
+
+## Grun Go
+![](Grun_GO.png)
+
+## Pechi Go
+![](Pechi_GO.png)
