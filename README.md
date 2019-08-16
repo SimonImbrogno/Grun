@@ -2,8 +2,6 @@
   - **Grun** was designed for less eye strain in dim light.
   - **Pechi** was designed for less eye strain in bright light.
 
-# Samples
-# Samples
 ## Grun C++
 ![](Grun_CPP.png)
 
