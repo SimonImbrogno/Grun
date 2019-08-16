@@ -5,7 +5,7 @@
 # Samples
 Language                   | Preview
 :-------------------------:|:--------------------------------------------------:
-**C++**                    | **Grun** ![](Example_CPP.png)  **Pechi** ![](Example_CPP.png)
-**JavaScript**             | **Grun** ![](Example_JS.png)   **Pechi** ![](Example_JS.png)
-**Rust**                   | **Grun** ![](Example_RUST.png) **Pechi** ![](Example_RUST.png)
-**Go**                     | **Grun** ![](Example_GO.png)   **Pechi** ![](Example_GO.png)
+**C++**                    | **Grun** ![](Grun_CPP.png)  **Pechi** ![](Pechi_CPP.png)
+**JavaScript**             | **Grun** ![](Grun_JS.png)   **Pechi** ![](Pechi_JS.png)
+**Rust**                   | **Grun** ![](Grun_RUST.png) **Pechi** ![](Pechi_RUST.png)
+**Go**                     | **Grun** ![](Grun_GO.png)   **Pechi** ![](Pechi_GO.png)
