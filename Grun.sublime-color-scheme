@@ -4,10 +4,8 @@
     "variables":
     {
         "grun":             "#C0B389",
-        "pastel_grun":      "#D4CCB4",
 
         "dark_grey2":       "#202020",
-        "dark_grey1":       "#232323",
         "grey":             "#2C2C2C",
         "light_grey1":      "#3A3A3A",
         "light_grey2":      "#4A4A4A",
@@ -43,7 +41,7 @@
 
         "shadow":                       "var(dark_grey2)",
 
-        "accent":                       "var(orange)",
+        "accent":                       "var(yellow)",
         "misspelling":                  "var(orange)",
         "fold_marker":                  "var(yellow)",
     },
