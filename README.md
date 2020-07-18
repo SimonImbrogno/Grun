@@ -1,27 +1,10 @@
-# Grun Color Schemes
-  - **Grun** was designed for less eye strain in dim light.
-  - **Pechi** was designed for less eye strain in bright light.
+# This package contains three colour schemes:
 
-## Grun C++
-![](Grun_CPP.png)
+## Grun
+![](Grun.png)
 
-## Pechi C++
-![](Pechi_CPP.png)
+## Blou
+![](Blou.png)
 
-## Grun JavaScript
-![](Grun_JS.png)
-
-## Pechi JavaScript
-![](Pechi_JS.png)
-
-## Grun Rust
-![](Grun_RUST.png)
-
-## Pechi Rust
-![](Pechi_RUST.png)
-
-## Grun Go
-![](Grun_GO.png)
-
-## Pechi Go
-![](Pechi_GO.png)
+## Pechi
+![](Pechi.png)
